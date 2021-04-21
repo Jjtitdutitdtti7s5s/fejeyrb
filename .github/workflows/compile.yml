@@ -39,4 +39,4 @@ jobs:
 
             ./transfer wet *.zip
 
-            ./transfer wet recovery.img
+            ./transfer wet recovery.img   ##
